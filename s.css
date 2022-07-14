@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.global-container {
+  height: 100vh;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.container {
+  display: table-cell;
+  width: 50%;
+  background: #eee;
+  padding: 10px;
+  height: 100vh;
+}
+
+.container:first-child {
+  border-right: 1px solid #000;
+}
+
+.article-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ccc;
+}
